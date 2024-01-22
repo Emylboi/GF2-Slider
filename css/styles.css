@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+/* 
+
+    Vores Overordnede slider komponent.
+
+*/
+.slider {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+/* 
+
+    Vores Slider Buttons område.
+
+*/
+
+.slider .slider-buttons {
+  justify-content: space-between;
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+/* 
+
+    Vores slider´s slide.
+
+*/
+
+.slider .slider-slides .slider-slide {
+  border-radius: 32px;
+  max-height: 85vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+#slide-counter {
+  font-size: 500%;
+}
